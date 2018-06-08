@@ -1,0 +1,430 @@
+﻿Ã¯Â»Â¿/*
+* Skeleton V1.1
+* Copyright 2011, Dave Gamache
+* www.getskeleton.com
+* Free to use under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
+* 8/17/2011
+*/
+
+/* Table of Content
+==================================================
+	#Site Styles
+	#Page Styles
+	#Media Queries
+	#Font-Face */
+
+/* #Site Styles
+================================================== */
+
+
+@font-face {
+    font-family: 'SegoeUINormal';
+    src: url('../fonts/segoeui-webfont.eot');
+    src: url('../fonts/segoeui-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/segoeui-webfont.woff') format('woff'),
+         url('../fonts/segoeui-webfont.ttf') format('truetype'),
+         url('../fonts/segoeui-webfont.svg#SegoeUINormal') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'SegoeUILight';
+    src: url('../fonts/segoeuil-webfont.eot');
+    src: url('../fonts/segoeuil-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/segoeuil-webfont.woff') format('woff'),
+         url('../fonts/segoeuil-webfont.ttf') format('truetype'),
+         url('../fonts/segoeuil-webfont.svg#SegoeUILight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+body {
+	background: #fff;
+	font-family: "SegoeUINormal", Arial, Sans-serif ;
+}
+
+
+h1, h2 {
+	font-family: "SegoeUIlight", Arial, Sans-serif;
+}
+
+.container {
+	
+}
+
+header {
+	background: #19A2DE;
+}
+
+header h1 {
+	width: 940px;
+	margin: 0 auto;
+	color: #fff;
+	padding: 20px;
+}
+
+section {
+	padding-bottom: 10px;
+}
+
+nav ul, nav ul li, nav ul li a {
+	display: block;
+	float: left;
+	padding: 0;
+	margin: 0;
+}
+
+nav ul li {
+	padding: 20px 20px 20px 0;
+}
+
+nav ul li a {
+	padding: 6px 0;
+	text-decoration: none;
+	
+}
+
+nav ul li a:hover {
+	text-decoration: underline;
+}
+
+
+.techlogos ul, .techlogos ul li, .techlogos ul li a {
+	display: block;
+	float: left;
+}
+
+
+
+.techlogos ul li, .techlogos ul li img {
+	width: 100px;
+}
+
+.techlogos ul li {
+	padding-right: 68px;
+}
+
+.techlogos ul li:last-child, .techlogos ul li.last {
+	padding-right: 0;
+}
+
+footer {
+	border-bottom: 4px solid #19A2DE;
+}
+
+footer p {
+	width: 940px;
+	margin: 0 auto;
+	padding:0 20px 4px 20px;
+	color: #aaa;
+	font-size: 0.8em;
+
+}
+
+/* #Page Styles
+================================================== */
+
+a.lookitskris:hover, #lookitskris h2, .lookcolour, #lookitskris a {
+	color: #FF0094;
+}
+
+a.technology:hover, #technology h2, .techcolour, #technology a {
+	color: #00AAAD;
+}
+
+a.work:hover, #work h2, .workcolour, #work a {
+	color: #EF9608;
+}
+
+a.content:hover, #content h2, .contentcolour, #content a {
+	color: #8CBE29;
+}
+
+a.gaming:hover, #gaming h2, .gamingcolour, #gaming a {
+	color: #A500FF;
+}
+
+a.connect:hover, #connect h2, .connectcolour, #connect a {
+	color: #E61400;
+}
+
+a.lookitskris:hover {
+	border-color: #FF0094;
+}
+
+a.technology:hover {
+	border-color: #00AAAD;
+}
+
+a.work:hover {
+	border-color: #EF9608;
+}
+
+a.content:hover {
+	border-color: #8CBE29;
+}
+
+a.gaming:hover {
+	border-color: #A500FF;
+}
+
+a.connect:hover{
+	border-color: #E61400;
+}
+
+
+#lookitskris img {
+	float: right;
+	padding: 0px 0 20px 20px;
+}
+
+#content table {
+	width: 100%;
+}
+
+#content table th {
+	background: #8CBE29;
+	text-shadow: none;
+	color: #fff;
+	padding: 9px;
+	text-align: left;
+	font-weight: bold;
+}
+
+#content table td {
+	padding: 9px 9px 0px 9px;
+	font-size: 0.8em;
+}
+
+.card {
+	width: 300px;
+	background: #a73ae2;
+	height: 300px;
+	overflow: hidden;
+	margin: 0 0 0 113px;
+	float: left;
+	
+}
+
+#xbox img {
+	display: block;
+	width: 150px;
+	padding: 0 75px;
+	position: relative;
+	top: -40px;
+}
+
+#xbox p, #halo p {
+	position: relative;
+	top: -40px;
+	text-align: center;
+	color: #fff;
+	text-shadow: none;
+	
+}
+
+#halo img {
+	width: 126px;
+	padding: 0 87px;
+	
+}
+
+#halo p {
+	top: 10px;
+}
+
+
+/* #Media Queries
+================================================== */
+
+	/* Smaller than standard 960 (devices and browsers) */
+	@media only screen and (max-width: 959px) {
+		header h1, footer p {
+	width: 748px;
+		padding-left: 0;
+	padding-right: 0;
+}
+		
+		.techlogos ul li, .techlogos ul li img {
+	width: 68px;
+}
+
+.card {
+	margin-left: 49px;
+}
+
+	
+	}
+
+	/* Tablet Portrait size to standard 960 (devices and browsers) */
+	@media only screen and (min-width: 768px) and (max-width: 959px) {
+			header h1, footer p {
+	width: 748px;
+}
+
+	}
+
+	/* All Mobile Sizes (devices and browser) */
+	@media only screen and (max-width: 767px) {
+	
+	header h1, footer p {
+	width: 420px;
+}
+		.techlogos ul li, .techlogos ul li img {
+	width: 68px;
+}
+
+nav ul li {
+	padding: 20px 15px 20px 0;
+}
+
+.techlogos ul li {
+	
+	padding-right: 48px;
+}
+
+.techlogos {
+	width: 420px;
+	overflow: hidden;
+}
+
+.techlogos ul {
+	width: 465px;
+	position: relative;
+}
+
+.card {
+	width: 190px;
+	height: 190px;
+	margin-left: 0px;
+	margin-right: 20px;
+}
+
+#halo  {
+	margin-left: 20px;
+	margin-right: 0;
+}
+
+#halo img {
+	width: 80px;
+	padding: 0 55px;
+}
+
+#xbox img {
+	width: 99px;
+	padding: 0 50px;
+	top: -31px;
+}
+	
+	
+	}
+
+	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+	@media only screen and (min-width: 480px) and (max-width: 767px) {}
+
+	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+	@media only screen and (max-width: 479px) {
+	
+	
+		header h1, footer p {
+	width: 300px;
+
+}
+
+nav ul {
+	padding-bottom: 10px;
+}
+
+nav ul li {
+	width: 80px;
+	padding: 10px 15px 0px 0;
+}
+
+.techlogos {
+	width: 300px;
+}
+
+.techlogos ul {
+	width: 359px;
+}
+
+.techlogos ul li {
+	padding-right: 48px;
+}
+
+#lookitskris img {
+	float: none;
+	display: block;
+	padding: 0 0 10px;
+	margin: 0 auto;
+}
+
+.card {
+	width: 130px;
+	height: 130px;
+	margin-left: 0px;
+	margin-right: 20px;
+}
+
+.card p {
+	background: #a73ae2;
+}
+
+#halo  {
+	margin-left: 20px;
+	margin-right: 0;
+}
+
+#halo img {
+	width: 80px;
+	padding: 0 55px 0 28px;
+}
+
+#xbox img {
+	width: 95px;
+	padding: 0 50px 0 17px;
+	top: -24px;
+}
+
+#xbox p {
+	top: -82px;
+}
+
+ #halo p {
+	top: -50px;
+}
+
+#content table th, #content table td {
+	display: none;
+}
+
+#content table th:nth-child(2), #content table td:nth-child(2){
+	display: block;
+	}
+
+	}
+
+
+/* #Font-Face
+================================================== */
+/* 	This is the proper syntax for an @font-face file
+		Just create a "fonts" folder at the root,
+		copy your FontName into code below and remove
+		comment brackets */
+
+/*	@font-face {
+	    font-family: 'FontName';
+	    src: url('../fonts/FontName.eot');
+	    src: url('../fonts/FontName.eot?iefix') format('eot'),
+	         url('../fonts/FontName.woff') format('woff'),
+	         url('../fonts/FontName.ttf') format('truetype'),
+	         url('../fonts/FontName.svg#webfontZam02nTh') format('svg');
+	    font-weight: normal;
+	    font-style: normal; }
+*/
